@@ -33,12 +33,4 @@ function changeName (newName ) {
 
 /* Nikol can help implement window.local storage:
 https://stackoverflow.com/questions/16206322/
-  how-to-get-js-variable-to-retain-value-after-page-refresh */
-
-  /* Nikol can help implement window.local storage:
-https://stackoverflow.com/questions/16206322/
-  how-to-get-js-variable-to-retain-value-after-page-refresh */
-
-  /* Nikol can help implement window.local storage:
-https://stackoverflow.com/questions/16206322/
-  how-to-get-js-variable-to-retain-value-after-page-refresh */
+  how-to-get-js-variable-to-retain-value-after-page-refresh  ttt*/
