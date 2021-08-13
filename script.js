@@ -7,7 +7,7 @@ function mfCheckbox() {
 
 /* Lægger indput sammen med dispalyed value*/
 function mfAddition(mitInputnumber) {
-   localStorage.clear()
+  /* localStorage.clear() */
     var minFinalvalue = document.getElementById("minDisplayedvalue");
     console.log(minFinalvalue)
     minDisplayedvalue.innerHTML = parseInt(minFinalvalue.innerHTML) +
@@ -25,12 +25,13 @@ function mfAddition(mitInputnumber) {
   }
 } */
 
+/*
 function changeName (newName ) {
   localStorage.clear()
   localStorage.setItem('nameVar', newName);
   document.getElementById('name').innerHTML = 'variable name has changed to ' +  newName
 }
-
+*/
 /* Nikol can help implement window.local storage:
 https://stackoverflow.com/questions/16206322/
   how-to-get-js-variable-to-retain-value-after-page-refresh  ttt*/
