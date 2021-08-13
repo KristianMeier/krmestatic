@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Næste linje sørger for at det device der åbner, tilpasser sig siden-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--maximum-scale=1.0, user-scalable=0"-->
+    <link rel="stylesheet" href="style.css">
+    <title>Kristian's Mobile-First side</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <main>
+    <div id="landing">
+        <div id="landing-text">
+          <div id="landing-text-inner"> <!-- Skriv i denne Div -->
+            <h1> <b> Kalorier</b></h1>
+            <h1 id="minDisplayedvalue">0</h1>
+            <button class="button" onclick="mfAddition(25)">25</button>
+            <button class="button" onclick="mfAddition(100)">100</button>
+            <button class="button" onclick="mfAddition(500)">500</button>
+            <br>
+            <br>
+            <label class="container">Tandtråd 5min
+              <input class="minCheckbox" type="checkbox">
+                <span class="checkmark"></span>
+              </label>              
+              <label class="container">Vitamin 5min
+                <input class="minCheckbox" type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="container">Tri 30min
+                <input class="minCheckbox" type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="container" >Yoga 20min
+                <input class="mincheckbox" type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <button class="button" onclick="mfCheckbox()">Reset</button>
+              <p id = 'name'>This is Nikol - fresh page</p>
+              <button class = 'button' onclick="changeName('Kristian')">Name Button</button>
+          </div>
+        </div>
+      </div> 
+    </main> 
+</body>
+</html>
